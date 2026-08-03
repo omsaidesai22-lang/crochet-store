@@ -1,113 +1,117 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Crochet Store | Handmade Keychains & Gifts</title>
-  
-  <!-- Modern Font -->
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-  
-  <!-- FontAwesome Icons -->
+  <title>CraftStore - Handcrafted Essentials</title>
+
+  <!-- Google Fonts: Poppins -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  <!-- Font Awesome Icons -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-  
+
+  <!-- Your Stylesheet -->
   <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
 
-  <!-- Top Announcement Bar -->
+  <!-- ANNOUNCEMENT BAR -->
   <div class="announcement-bar">
-    <p>✨ Free Shipping on orders over ₹499 | Handcrafted with Love 🧶</p>
+    ⚡ Free Shipping on Orders Over $50 | Fast WhatsApp Support ⚡
   </div>
 
-  <!-- Navbar -->
-  <nav class="navbar">
+  <!-- NAVBAR -->
+  <header class="navbar">
     <div class="nav-container">
       <a href="#" class="logo">
-        <span class="logo-icon">🧶</span> Crochet Store
+        <i class="fa-solid fa-store"></i> CraftStore
       </a>
-
+      
       <ul class="nav-links">
-        <li><a href="#">Home</a></li>
+        <li><a href="#hero">Home</a></li>
         <li><a href="#products">Products</a></li>
         <li><a href="#about">About</a></li>
         <li><a href="#contact">Contact</a></li>
       </ul>
 
-      <div class="nav-actions">
-        <a href="https://wa.me/918169749895" class="nav-contact-btn" target="_blank">
-          <i class="fa-brands fa-whatsapp"></i> Chat with Us
-        </a>
-      </div>
+      <a href="https://wa.me/8169749895" target="_blank" class="nav-contact-btn">
+        <i class="fa-brands fa-whatsapp"></i> Chat with Us
+      </a>
     </div>
-  </nav>
+  </header>
 
-  <!-- Hero Section -->
-  <section class="hero">
+  <!-- HERO SECTION -->
+  <section class="hero" id="hero">
     <div class="hero-container">
       <div class="hero-text">
-        <span class="badge">100% Handcrafted</span>
-        <h1>Unique & Cute Handmade Crochet Gifts</h1>
-        <p>Discover adorable keychains, plushies, and custom crochet items crafted with love, quality yarn, and attention to detail.</p>
+        <span class="badge">Handcrafted Collection</span>
+        <h1>Authentic Artisanal Goods for Your Home</h1>
+        <p>Discover unique, handmade items crafted with love and precision. Elevate your everyday space with timeless artisanal quality.</p>
         
         <div class="hero-cta">
-          <a href="#products" class="shop-btn">Explore Collection <i class="fa-solid fa-arrow-right"></i></a>
+          <a href="#products" class="shop-btn">
+            Explore Collection <i class="fa-solid fa-arrow-right"></i>
+          </a>
+          
           <div class="hero-trust">
             <span><i class="fa-solid fa-star"></i> 4.9/5 Rating</span>
-            <span><i class="fa-solid fa-heart"></i> 500+ Happy Customers</span>
+            <span><i class="fa-solid fa-shield-halved"></i> 100% Quality Guaranteed</span>
           </div>
         </div>
       </div>
 
       <div class="hero-image">
         <div class="img-wrapper">
-          <img src="main-crochet.jpg" alt="Handmade Crochet Items Collection">
+          <img src="https://images.unsplash.com/photo-1513519245088-0e12902e5a38?auto=format&fit=crop&w=800&q=80" alt="Handcrafted pottery hero banner">
         </div>
       </div>
     </div>
   </section>
 
-  <!-- Trust Features Banner -->
+  <!-- TRUST BANNER -->
   <section class="trust-banner">
-    <div class="trust-item">
-      <i class="fa-solid fa-hands-holding-child"></i>
-      <div>
-        <h4>100% Handmade</h4>
-        <p>Crafted with love & patience</p>
-      </div>
-    </div>
     <div class="trust-item">
       <i class="fa-solid fa-truck-fast"></i>
       <div>
-        <h4>Safe Delivery</h4>
-        <p>Carefully packed & shipped</p>
+        <h4>Fast Delivery</h4>
+        <p>Safe & secure shipping</p>
       </div>
     </div>
+    
     <div class="trust-item">
-      <i class="fa-solid fa-comments"></i>
+      <i class="fa-solid fa-hand-holding-heart"></i>
       <div>
-        <h4>Easy WhatsApp Ordering</h4>
-        <p>Direct communication with creator</p>
+        <h4>100% Handmade</h4>
+        <p>Crafted by skilled artisans</p>
+      </div>
+    </div>
+    
+    <div class="trust-item">
+      <i class="fa-solid fa-headset"></i>
+      <div>
+        <h4>Instant Support</h4>
+        <p>Direct WhatsApp help</p>
       </div>
     </div>
   </section>
 
-  <!-- Products Section -->
-  <section id="products" class="products-section">
+  <!-- PRODUCTS SECTION -->
+  <section class="products-section" id="products">
     <div class="section-header">
-      <h2>Featured Keychains & Gifts</h2>
-      <p>Click on any product to directly place your order on WhatsApp</p>
+      <h2>Featured Products</h2>
+      <p>Handpicked favorites crafted with care and built to last.</p>
     </div>
 
     <div class="product-grid">
-
-      <!-- Product Card 1 -->
+      
+      <!-- Card 1 -->
       <div class="card">
-        <div class="card-badge">Best Seller</div>
+        <span class="card-badge new">New</span>
         <div class="img-container">
-          <img src="blue bird.jpg" alt="Blue Bird Keychain">
+          <img src="https://images.unsplash.com/photo-1578749556568-bc2c40e68b61?auto=format&fit=crop&w=500&q=80" alt="Ceramic Mug">
         </div>
         <div class="card-body">
           <div class="rating">
@@ -116,45 +120,21 @@
             <i class="fa-solid fa-star"></i>
             <i class="fa-solid fa-star"></i>
             <i class="fa-solid fa-star"></i>
-            <span>(4.9)</span>
+            <span>(48)</span>
           </div>
-          <h3>Blue Bird Keychain</h3>
-          <p class="price">₹199</p>
-          <a class="buy-btn" target="_blank"
-            href="https://wa.me/918169749895?text=Hi!%20I%20want%20to%20order%20the%20Blue%20Bird%20Keychain%20(₹199)">
-            <i class="fa-brands fa-whatsapp"></i> Order on WhatsApp
+          <h3>Terracotta Coffee Mug</h3>
+          <div class="price">$24.00</div>
+          <a href="https://wa.me/8169749895?text=Hi!%20I%20would%20like%20to%20order%20the%20Terracotta%20Coffee%20Mug." target="_blank" class="buy-btn">
+            <i class="fa-brands fa-whatsapp"></i> Order via WhatsApp
           </a>
         </div>
       </div>
 
-      <!-- Product Card 2 -->
+      <!-- Card 2 -->
       <div class="card">
-        <div class="card-badge">Popular</div>
+        <span class="card-badge">Best Seller</span>
         <div class="img-container">
-          <img src="owl.jpg" alt="Owl Keychain">
-        </div>
-        <div class="card-body">
-          <div class="rating">
-            <i class="fa-solid fa-star"></i>
-            <i class="fa-solid fa-star"></i>
-            <i class="fa-solid fa-star"></i>
-            <i class="fa-solid fa-star"></i>
-            <i class="fa-solid fa-star"></i>
-            <span>(5.0)</span>
-          </div>
-          <h3>Owl Keychain</h3>
-          <p class="price">₹199</p>
-          <a class="buy-btn" target="_blank"
-            href="https://wa.me/918169749895?text=Hi!%20I%20want%20to%20order%20the%20Owl%20Keychain%20(₹199)">
-            <i class="fa-brands fa-whatsapp"></i> Order on WhatsApp
-          </a>
-        </div>
-      </div>
-
-      <!-- Product Card 3 -->
-      <div class="card">
-        <div class="img-container">
-          <img src="evileyes.jpg" alt="Evil Eye Keychain">
+          <img src="https://images.unsplash.com/photo-1610701596007-11502861dcfa?auto=format&fit=crop&w=500&q=80" alt="Clay Vase">
         </div>
         <div class="card-body">
           <div class="rating">
@@ -163,22 +143,20 @@
             <i class="fa-solid fa-star"></i>
             <i class="fa-solid fa-star"></i>
             <i class="fa-solid fa-star-half-stroke"></i>
-            <span>(4.8)</span>
+            <span>(92)</span>
           </div>
-          <h3>Evil Eye Keychain</h3>
-          <p class="price">₹149</p>
-          <a class="buy-btn" target="_blank"
-            href="https://wa.me/918169749895?text=Hi!%20I%20want%20to%20order%20the%20Evil%20Eye%20Keychain%20(₹149)">
-            <i class="fa-brands fa-whatsapp"></i> Order on WhatsApp
+          <h3>Rustic Ceramic Vase</h3>
+          <div class="price">$45.00</div>
+          <a href="https://wa.me/8169749895?text=Hi!%20I%20would%20like%20to%20order%20the%20Rustic%20Ceramic%20Vase." target="_blank" class="buy-btn">
+            <i class="fa-brands fa-whatsapp"></i> Order via WhatsApp
           </a>
         </div>
       </div>
 
-      <!-- Product Card 4 -->
+      <!-- Card 3 -->
       <div class="card">
-        <div class="card-badge new">New</div>
         <div class="img-container">
-          <img src="fish.jpg" alt="Cute Fish Collection">
+          <img src="https://images.unsplash.com/photo-1603006905003-be475563bc59?auto=format&fit=crop&w=500&q=80" alt="Scented Candle">
         </div>
         <div class="card-body">
           <div class="rating">
@@ -187,13 +165,35 @@
             <i class="fa-solid fa-star"></i>
             <i class="fa-solid fa-star"></i>
             <i class="fa-solid fa-star"></i>
-            <span>(5.0)</span>
+            <span>(31)</span>
           </div>
-          <h3>Cute Fish Collection</h3>
-          <p class="price">Starting ₹199</p>
-          <a class="buy-btn" target="_blank"
-            href="https://wa.me/918169749895?text=Hi!%20I%20want%20to%20order%20from%20the%20Cute%20Fish%20Collection">
-            <i class="fa-brands fa-whatsapp"></i> Order on WhatsApp
+          <h3>Hand-Poured Soy Candle</h3>
+          <div class="price">$18.00</div>
+          <a href="https://wa.me/8169749895?text=Hi!%20I%20would%20like%20to%20order%20the%20Hand-Poured%20Soy%20Candle." target="_blank" class="buy-btn">
+            <i class="fa-brands fa-whatsapp"></i> Order via WhatsApp
+          </a>
+        </div>
+      </div>
+
+      <!-- Card 4 -->
+      <div class="card">
+        <span class="card-badge new">New</span>
+        <div class="img-container">
+          <img src="https://images.unsplash.com/photo-1590736704728-f4730bb30770?auto=format&fit=crop&w=500&q=80" alt="Woven Basket">
+        </div>
+        <div class="card-body">
+          <div class="rating">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+            <span>(15)</span>
+          </div>
+          <h3>Woven Storage Basket</h3>
+          <div class="price">$32.00</div>
+          <a href="https://wa.me/8169749895?text=Hi!%20I%20would%20like%20to%20order%20the%20Woven%20Storage%20Basket." target="_blank" class="buy-btn">
+            <i class="fa-brands fa-whatsapp"></i> Order via WhatsApp
           </a>
         </div>
       </div>
@@ -201,46 +201,47 @@
     </div>
   </section>
 
-  <!-- About Section -->
-  <section id="about" class="about-section">
+  <!-- ABOUT SECTION -->
+  <section class="about-section" id="about">
     <div class="about-container">
-      <h2>About Our Store</h2>
+      <h2>About Our Craft</h2>
       <p class="about-text">
-        Every single product in our store is hand-crafted with love, patience, and high-quality materials. We believe in creating special, one-of-a-kind items that bring warmth and joy to your everyday life or make the perfect thoughtful gift for someone special. ❤️
+        We believe that every home deserves pieces made with purpose and heart. Each product in our collection is carefully handcrafted by skilled artisans using sustainable, high-quality materials. By ordering directly through WhatsApp, you connect straight with our small studio team.
       </p>
     </div>
   </section>
 
-  <!-- Contact Section -->
-  <section id="contact" class="contact-section">
+  <!-- CONTACT SECTION -->
+  <section class="contact-section" id="contact">
     <div class="contact-card">
-      <h2>Have a Custom Order in Mind?</h2>
-      <p>We take custom crochet requests! Message us directly on WhatsApp to discuss colors, designs, and personalized gifts.</p>
-      <a href="https://wa.me/918169749895" class="whatsapp-main-btn" target="_blank">
-        <i class="fa-brands fa-whatsapp"></i> Chat on WhatsApp (+91 8169749895)
+      <h2>Have Questions or Custom Requests?</h2>
+      <p>We’d love to help! Reach out directly via WhatsApp to discuss custom orders, wholesale pricing, or product availability.</p>
+      <a href="https://wa.me/8169749895" target="_blank" class="whatsapp-main-btn">
+        <i class="fa-brands fa-whatsapp"></i> Chat on WhatsApp Now
       </a>
     </div>
   </section>
 
-  <!-- Footer -->
+  <!-- FOOTER -->
   <footer>
     <div class="footer-container">
       <div class="footer-brand">
-        <h3>🧶 Crochet Store</h3>
-        <p>Handmade creations crafted with care.</p>
+        <h3>CraftStore</h3>
+        <p>Quality handcrafted goods delivered to your doorstep.</p>
       </div>
+
       <div class="footer-links">
-        <a href="#">Home</a>
+        <a href="#hero">Home</a>
         <a href="#products">Products</a>
         <a href="#about">About</a>
         <a href="#contact">Contact</a>
       </div>
     </div>
+
     <div class="footer-bottom">
-      <p>© 2026 Crochet Store. All Rights Reserved. Handmade with Love ❤️</p>
+      <p>&copy; 2026 CraftStore. All rights reserved.</p>
     </div>
   </footer>
 
 </body>
-
 </html>
