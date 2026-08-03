@@ -2,23 +2,23 @@
    RESET & PALETTE VARIABLES
    ========================================== */
 :root {
-  --primary-color: #B85028;        /* Rich Terracotta / Warm Craft Orange */
-  --primary-hover: #963D1B;
-  --secondary-color: #25D366;      /* Official WhatsApp Green */
+  --primary-color: #D97736;        /* Warm Terracotta Yarn Orange */
+  --primary-hover: #B85028;
+  --secondary-color: #25D366;      /* WhatsApp Green */
   --whatsapp-hover: #1DA851;
   --bg-color: #FAFAFA;             /* Clean Soft Neutral Off-White */
   --card-bg: #FFFFFF;
-  --text-main: #2D2420;            /* Dark Warm Charcoal for Crisp Readability */
+  --text-main: #2D2420;            /* Dark Warm Charcoal */
   --text-muted: #6B625E;          /* Soft Secondary Text */
   --accent-gold: #F59E0B;          /* Star Rating Gold */
-  --banner-bg: #F5EAE4;            /* Soft Cream for Features Container */
+  --banner-bg: #FDF6F0;            /* Soft Cream for Features Container */
   --border-radius-lg: 18px;
   --border-radius-md: 12px;
   
   /* Layered Depth & Elevation */
   --shadow-sm: 0 2px 8px rgba(0, 0, 0, 0.04);
   --shadow-md: 0 6px 18px rgba(0, 0, 0, 0.06);
-  --shadow-hover: 0 12px 24px rgba(184, 80, 40, 0.12), 0 4px 10px rgba(0, 0, 0, 0.04);
+  --shadow-hover: 0 12px 24px rgba(217, 119, 54, 0.15), 0 4px 10px rgba(0, 0, 0, 0.04);
   --transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
 }
 
@@ -184,7 +184,7 @@ body {
   text-decoration: none;
   font-weight: 600;
   width: fit-content;
-  box-shadow: 0 4px 15px rgba(184, 80, 40, 0.3);
+  box-shadow: 0 4px 15px rgba(217, 119, 54, 0.3);
   transition: var(--transition);
 }
 
@@ -298,7 +298,7 @@ body {
   border-radius: var(--border-radius-lg);
   overflow: hidden;
   box-shadow: var(--shadow-sm);
-  border: 1.5 solid #F0ECE9;
+  border: 1.5px solid #F0ECE9;
   transition: var(--transition);
   position: relative;
   display: flex;
@@ -530,7 +530,7 @@ footer {
 }
 
 /* ==========================================
-   RESPONSIVE DESIGN (MOBILE & TABLETS)
+   RESPONSIVE DESIGN
    ========================================== */
 @media (max-width: 768px) {
   .nav-links {
